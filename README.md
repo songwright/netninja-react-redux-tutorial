@@ -31,3 +31,5 @@ class App extends React.Component {
   }
 }
 ```
+
+![React lesson 2](https://user-images.githubusercontent.com/29614473/60999359-d4b55000-a30f-11e9-9d28-aa886ba6ad10.png)
