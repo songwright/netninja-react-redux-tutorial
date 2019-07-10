@@ -2,27 +2,30 @@
 
 Notes on The Net Ninja’s Complete React Tutorial (with Redux) on YouTube.
 
-## Lesson 1 - Complete React Tutorial (& Redux ) #1- Introduction
+## Lesson 2 – How React Works
 
-YouTube link: https://youtu.be/OxIDLw0M-m0
+YouTube link: https://youtu.be/pKYiKbf7sP0
 
-### What is React?
-*	JavaScript library created on Facebook
-*	Also used by Netflix & Instagram
-*	Used to create JS-driven dynamic web apps
-*	In that regard, can be compared to Angular & Vue
+Components are the lifeblood of React. You could have components for a nav bar, a search box, and a footer. It takes the components and creates a JavaScript representation of the DOM called “Virtual DOM.” It then renders the actual DOM in the browser from the virtual DOM. Changes in the components go to the virtual DOM. React compares the new virtual DOM in the background to the old virtual DOM that it sent to the browser to create the real DOM. It will then update only the part of the real browser DOM that got changed in the virtual DOM. This happens every time a component gets a change.
 
-### What is Redux?
-A layer on top of React
-*	Helps with state management of our app
-    *	Data in the app
-    *	UI state of the app
-*	Learn this in the 2nd half of the playlist
+### Components & Templates:
+* Components look like HTML templates (actually JSX)
+* They can contain “state” (data or UI state)
+* They also can contain JavaScript for functionality
 
-In the video, the Net Ninja displays a preview of the projects that he will build in the next playlist after this (not this one). The app is a project planner with user authentication and notification that uses Google Firebase. In this React playlist, he will make a todo list app. Files for this playlist are available on Github. Select a lesson and download the files.
+Example:
 
-Repository files:
-
-https://github.com/iamshaunjp/react-redux-complete-playlist
-
-He recommends Visual Studio Code as a text editor.
+class App extends React.Component {
+  state = {
+    name: 'Ryu',
+    age: 30
+  }
+  render(){
+    return(
+      <div className="app-content">
+        <h1>Hello, ninjas!</h1>
+        <p>My name is: { this.state.name } and I am { this.state.age }</p>
+      </div>
+    )
+  }
+}
