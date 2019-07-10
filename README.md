@@ -15,7 +15,7 @@ Components are the lifeblood of React. You could have components for a nav bar, 
 
 Example:
 
-class App extends React.Component {
+```class App extends React.Component {
   state = {
     name: 'Ryu',
     age: 30
@@ -28,4 +28,4 @@ class App extends React.Component {
       </div>
     )
   }
-}
+}```
