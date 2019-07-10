@@ -15,8 +15,8 @@ YouTube link: https://youtu.be/OxIDLw0M-m0
 ### What is Redux?
 A layer on top of React
 *	Helps with state management of our app
-  *	Data in the app
-  *	UI state of the app
+    *	Data in the app
+    *	UI state of the app
 *	Learn this in the 2nd half of the playlist
 
 In the video, the Net Ninja displays a preview of the projects that he will build in the next playlist after this (not this one). The app is a project planner with user authentication and notification that uses Google Firebase. In this React playlist, he will make a todo list app. Files for this playlist are available on Github. Select a lesson and download the files.
