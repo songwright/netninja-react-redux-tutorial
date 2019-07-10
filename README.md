@@ -2,9 +2,9 @@
 
 The course files for the React & Redux Complete tutorial playlist on The Net Ninja YouTube channel.
 
-YouTube link: https://youtu.be/OxIDLw0M-m0
-
 ## Lesson 1 - Complete React Tutorial (& Redux ) #1- Introduction
+
+YouTube link: https://youtu.be/OxIDLw0M-m0
 
 ### What is React?
 *	JavaScript library created on Facebook
