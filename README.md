@@ -1,5 +1,7 @@
 # Complete React Tutorial (with Redux)
 
+Notes on The Net Ninja’s Complete React Tutorial (with Redux) on YouTube.
+
 ## Lesson 4 - React Components
 
 YouTube link: https://youtu.be/Fis_Q3rkgtM
