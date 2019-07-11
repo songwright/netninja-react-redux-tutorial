@@ -16,13 +16,13 @@
     class App extends React.Component {
       state = {
         name: 'Ryu',
-        age: 30
+        age: 35
       }
       render() {
         return (
           <div className="app-content">
             <h1>Hey, ninjas</h1>
-            <p>My name is { this.state.name }</p>
+            <p>My name is { this.state.name } and I am { this.state.age }.</p>
           </div>
         )
       }
