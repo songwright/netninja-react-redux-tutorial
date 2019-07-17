@@ -1,6 +1,0 @@
-# Ignore react-app folder
-react-app/node_modules/
-
-# Include these directories
-# !react-app/public/
-# !react-app/src/
