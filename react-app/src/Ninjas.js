@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Ninjas() {
-  return (
-    <div className="ninja">
-      <div>Name: Ryu</div>
-      <div>Age: 30</div>
-      <div>Belt: Black</div>
-    </div>
-  );
+class Ninjas extends Component{
+  render(){
+    console.log(this.props);
+    return (
+      <div className="ninja">
+        <div>Name: { this.props.name }</div>
+        <div>Age: { this.props.age }</div>
+        <div>Belt: { this.props.belt }</div>
+      </div>
+    );
+  }
 }
 
 export default Ninjas;
