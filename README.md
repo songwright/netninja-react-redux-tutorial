@@ -11,7 +11,6 @@ The App component is the parent component to the Ninjas component, and the Ninja
 `import React, { Component } from 'react';`
 
 I also changed the function to a class and added the render function from the video:
-
 ```
 class Ninjas extends Component{
   render(){
@@ -25,11 +24,13 @@ In the video, the Net Ninja replaced the data in the Ninjas component with prope
 After saving, the code compiled and the page displayed the props data:
 
 Name: Ryu
+
 Age: 25
+
 Belt: black
 
 The Net Ninja went on to demonstrate destructuring so that the properties could be stored as variables. In the render function in Ninjas.js, he added the line:
 
 `const { name, age, belt } = this.props;`
 
-In the component, he removed __this.props__ from the lines in the component, leaving just the variable names, e.g. __name__. The code compiled and the page showed the same information. Coding the component this way instead of hard-coding in the data makes it possible to display multiple instances of the same component with different information. He demonstrated by copying the `<Ninjas />` and tag and changing the information for the name, age, and belt. After compiling, the page displays information for two characters. This shows how one components can be reused many times in different places with different information.
+In the component, he removed __this.props__ from the lines in the component, leaving just the variable names, e.g. __name__. The code compiled and the page showed the same information. Coding the component this way instead of hard-coding in the data makes it possible to display multiple instances of the same component with different information. He demonstrated by copying and pasting the `<Ninjas />` and tag and changing the information for the name, age, and belt. After compiling, the page displays information for two characters. This shows how one components can be reused many times in different places with different information.
