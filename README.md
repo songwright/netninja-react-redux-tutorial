@@ -18,7 +18,7 @@ He points out that this is the same as this declaration,
 
 `const ninjas = this.props.ninjas;`
 
-but uses destructuring to do the same thing. To render each ninja to the DOM, he uses the __.map__ method to map one array to another array. To do this, he creates a constant called __ninjaList__ that contains a arrow function. This arrow function returns a JSX component for each ninja that it cycles through in the array. After saving, the development server compiles and renders it to the browser. A listing appears for each ninja with information for that ninja from the array. In the video, the Net Ninja points out that the following error message appears in the console:
+but uses destructuring to do the same thing. To render each ninja to the DOM, he uses the __.map__ method to map one array to another array. To do this, he creates a constant called __ninjaList__ that contains an arrow function. This arrow function returns a JSX component for each ninja that it cycles through in the array. After saving, the development server compiles and renders it to the browser. A listing appears for each ninja with information for that ninja from the array. In the video, the Net Ninja points out that the following error message appears in the console:
 
 Warning: Each child in a list should have a unique "key" prop.
 
