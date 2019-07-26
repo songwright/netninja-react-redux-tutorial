@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Ninjas extends Component{
+const Ninjas = () => {
   render(){
     const { ninjas } = this.props;
     const ninjaList = ninjas.map(ninja => {
