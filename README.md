@@ -7,9 +7,13 @@ Notes on The Net Ninja’s Complete React Tutorial (with Redux) on YouTube.
 YouTube link: https://youtu.be/o4GCcSn-hEw
 
 There are a couple of different types of components in React, __container components__ and __UI components__. Container components contain data in their states. They are created with classes. They are not involved with the user interface. UI components don’t contain state and have to get their data from container components. They present the data to the user with the user interface. They are created with functional components.
+
 ![Container vs  UI Components](https://user-images.githubusercontent.com/29614473/61925890-0f7bd280-af23-11e9-871b-6102b2394393.png)
+
 App.js is a container component. It may contain UI components or other container components.
+
 ![Container vs  UI omponents tree](https://user-images.githubusercontent.com/29614473/61925928-418d3480-af23-11e9-8959-5b5d3a945a71.png)
+
 In the video, the Net Ninja deletes the class in the Ninjas.js file and replaces it with an arrow function. He removes the render function, which is only needed in class-based components. He removes the `{ Component }` code from the import line at the top because this file is no longer extending a class component. When the development server puts the page in the browser, it fails to render because of an error. The error message in the console reads:
 
 Uncaught TypeError: Cannot read property 'props' of undefined
