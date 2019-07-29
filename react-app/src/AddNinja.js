@@ -6,10 +6,10 @@ class AddNinja extends Component {
         age: null,
         belt: null
     }
-    hnadleChange = (e) => {
+    handleChange = (e) => {
         this.setState({
             [e.target.id]: e.target.value
-        })
+        });
     }
     handleSubmit = (e) => {
         e.preventDefault();
