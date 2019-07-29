@@ -9,7 +9,7 @@ YouTube link: https://youtu.be/W--bMoQncPM
 Sometimes we only want to show something on a web page based on certain conditions. For example, if in this app you wanted to show only ninjas older than 20, you could use an __if__ statement. In the video, the Net Ninja wraps the JSX block in Ninjas.js in an __if__ statement. This is followed by an __else__ statement returning __null__. His browser now shows only the two ninjas older than 20. He then makes a ternary operator that does the same thing. First, he comments out the JSX with the __if__ statement and then copies and pastes the JSX into the parentheses for the true result in the ternary operator. Then he follows that with a __null__ result.
 ```
   const ninjaList = ninjas.map(ninja => {
-    if (ninja.age > 20) ? (
+    return (ninja.age > 20) ? (
 ```
 This works the same as the __if__ statement.
 
