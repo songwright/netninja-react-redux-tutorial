@@ -12,7 +12,7 @@ class App extends Component {
   }
 
 addNinja = (ninja) => {
-  console.log(this.state);
+  console.log(ninja);
 }
 
   render() {
