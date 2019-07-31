@@ -19,7 +19,7 @@ addNinja = (ninja) => {
   })
 }
 deleteNinja = (id) => {
-  //
+  console.log(id);
 }
   render() {
     return (
