@@ -8,7 +8,7 @@ const Ninjas = ({ninjas, deleteNinja}) => {
           <div>Name: { ninja.name }</div>
           <div>Age: { ninja.age }</div>
           <div>Belt: { ninja.belt }</div>
-          <button onClick={deleteNinja}>Delete ninja</button>
+          <button onClick={() => {deleteNinja(ninja.id)}}>Delete ninja</button>
         </div>
       )
     } else {
