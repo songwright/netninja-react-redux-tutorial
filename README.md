@@ -13,8 +13,12 @@ body {
 }
 ```
 In Ninjas.js, he adds a new import line to import the CSS file.
+
 `import './Ninjas.css'`
-The CSS will be imported into the entire app, not just the Ninjas template. The whole page will be pink. If you put a style for the form in the Ninja.css file, the style will appear on the form. It doesn’t have to be imported into the form component directly. React has a special feature that automatically adds vendor prefixes to the style. For example, the body style above would get prefixes for particular browsers.
+
+The CSS will be imported into the entire app, not just the Ninjas template. The whole page will be pink. If you put a style for the form in the Ninja.css file, the style will appear on the form. It doesn’t have to be imported into the form component directly.
+
+React has a special feature that automatically adds vendor prefixes to the style. For example, the body style above would get prefixes for particular browsers.
 ```
 body {
     background: pink;
