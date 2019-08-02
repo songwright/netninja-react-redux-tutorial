@@ -12,6 +12,8 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 A component goes through three phases: mounting, updating, and unmounting.
 
+![React Lifecycle](https://user-images.githubusercontent.com/29614473/62402209-7c065b00-b53b-11e9-8080-2b82ab6bdb82.png)
+
 ### Mounting
 
 1.	__constructor__. Optional.
