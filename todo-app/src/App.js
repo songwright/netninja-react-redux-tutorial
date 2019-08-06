@@ -3,7 +3,7 @@ import Todos from './Todos'
 
 class App extends Component {
   state = {
-    todo: [
+    todos: [
       {id: 1, content: 'buy some milk'},
       {id: 2, content: 'play mario kart'}
     ]
