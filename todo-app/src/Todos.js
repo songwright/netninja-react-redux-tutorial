@@ -19,3 +19,5 @@ const Todos = ({todos}) => {
         </div>
     )
 }
+
+export default Todos
