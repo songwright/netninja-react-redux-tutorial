@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const Navbar = () => {
   return (
     <nav className="nav-wrapper red darken-3">
       <div className="container">
-        <a  className="brand-logo">Poke'Times</a>
+        <a  className="brand-logo">Poke' Times</a>
         <ul className="right">
           <li><a href="/"></a>Home</li>
           <li><a href="/about"></a>About</li>
