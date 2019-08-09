@@ -10,7 +10,7 @@ In the video, the Net Ninja says that it is possible to programmatically redirec
 
 `props.history.push('/about')`
 
-This is a programmatic redirect. It works on the Contact link because that link is set up in Navbar.js as a router link. The Net Ninja adds a __setTimeout__ line to Navbar.js like the one in Contact.js, but this time it doesn’t work. He adds a __console.log__ line in Navbar.js to find out why. In the browser, the console shows that the props object is empty. This is because the Navbar doesn’t have a router link. It needs a higher-order component. The Net Ninja comments out the __setTimeout__ line and adds __withRouter__ to the list of things imported from ‘react-router-dom’ in the Navbar.js file. He also changes the export line to reflect this.
+This is a programmatic redirect. It works on the Contact link because that link is set up in Navbar.js as a router link. The Net Ninja adds a __setTimeout__ line to Navbar.js like the one in Contact.js, but this time it doesn’t work. He adds a __console.log__ line in Navbar.js to find out why. In the browser, the console shows that the __props__ object is empty. This is because the Navbar doesn’t have a router link. It needs a higher-order component. The Net Ninja comments out the __setTimeout__ line and adds __withRouter__ to the list of things imported from ‘react-router-dom’ in the Navbar.js file. He also changes the export line to reflect this.
 
 `export default withRouter(Navbar)`
 
