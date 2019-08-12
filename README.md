@@ -18,4 +18,4 @@ Route parameters are a part of the URL that can change. You can see them on URLâ
 
 The __post_id__ parameter is grabbing the value of the number that you typed in after the slash in the URL.
 
-He creates a new state in Post.js with a property called __id__ which starts out with a value of __null__. He then uses __this.setState__ in __componentDidMount__ to set the __state id__equal to the __id__ in __componentDidMount__. The result is that when you add a number after the slash in the URL in the browser, that number will appear on the page. The app has taken that number from the __post_id__ parameter as the i.d. of the post and rendered it through the JSX block in Post.js.
+He creates a new state in Post.js with a property called __id__ which starts out with a value of __null__. He then uses __this.setState__ in __componentDidMount__ to set the __state id__ equal to the __id__ in __componentDidMount__. The result is that when you add a number after the slash in the URL in the browser, that number will appear on the page. The app has taken that number from the __post_id__ parameter as the i.d. of the post and rendered it through the JSX block in Post.js.
