@@ -14,8 +14,8 @@ This file goes in the “src” directory. He adds a line to the Home.js file th
 
 `import Pokeball from '../pokeball.png'`
 
-He also uses an `<img>` tag in the post JSX with the src equal to a variable called Pokeball.
+He also uses an `<img>` tag in the post JSX with the __src__ equal to a variable called Pokeball.
 
 `<img src={Pokeball} alt="A pokeball" />`
 
-Next, he creates a class for the image, making it the grandchild of the .home and .post class, making it necessary for him to insert a new home class in the `<div>` container. The new __img__ style has new position and opacity values. He changes the __.home__ and __.post__ class so that it takes out the overflow of the image and also adds a style to make the title of the post red.
+Next, he creates a class for the image, making it the grandchild of the __.home__ and __.post__ class. This makes it necessary for him to insert a new home class in the `<div>` container. The new __img__ style has new position and opacity values. He changes the __.home__ and __.post__ class so that it takes out the overflow of the image and also adds a style to make the title of the post red.
