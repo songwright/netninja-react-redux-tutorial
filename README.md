@@ -18,4 +18,8 @@ He also uses an `<img>` tag in the post JSX with the __src__ equal to a variable
 
 `<img src={Pokeball} alt="A pokeball" />`
 
-Next, he creates a class for the image, making it the grandchild of the __.home__ and __.post__ class. This makes it necessary for him to insert a new home class in the `<div>` container. The new __img__ style has new position and opacity values. He changes the __.home__ and __.post__ class so that it takes out the overflow of the image and also adds a style to make the title of the post red.
+Next, he creates a class for the image, making it a grandchild after the __.home__ and __.post__ classes.
+
+`.home .post img {`
+
+This makes it necessary for him to insert a new __home__ class in the `<div>` container. The new __img__ style has new position and opacity values. He changes the __.home__ and __.post__ class so that it takes out the overflow of the image and also adds a style to make the title of the post red.
