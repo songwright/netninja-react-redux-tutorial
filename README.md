@@ -10,9 +10,9 @@ In the video, the Net Ninja explains Redux, which is a central data store for al
 
 Redux
 
-#	Central data store for all app data
-#	Any component can access data from it
-#	Makes state management easy
+*	Central data store for all app data
+*	Any component can access data from it
+*	Makes state management easy
 
 ![Redux](https://user-images.githubusercontent.com/29614473/63467438-540f6680-c41a-11e9-94da-9ab289b0263b.png)
 
