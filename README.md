@@ -2,8 +2,6 @@
 
 Notes on The Net Ninja’s Complete React Tutorial (with Redux) on YouTube.
 
-Notes on The Net Ninja’s Complete React Tutorial (with Redux) on YouTube.
-
 ## Lesson 5 - State
 
 YouTube link: https://youtu.be/yuN4EMjR4K4
