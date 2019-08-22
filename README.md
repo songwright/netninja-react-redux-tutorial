@@ -1,13 +1,15 @@
 # Complete React Tutorial (with Redux)
 
+Notes on The Net Ninja’s Complete React Tutorial (with Redux) on YouTube.
+
 ## Lesson 35 - Redux Stores
 
 YouTube link: https://youtu.be/sNyXE35liAE
 
 
-In the video, the Net Ninja talks about how Redux is a JavaScript object that represents the global state of the application. The Reducer is a function that interacts with the store in the Redux in order to change the state of the data in the store. The store is like a data warehouse. The Reducer is like a robot that stands guard at the door of the warehouse. Only the robot has access to the warehouse and can change the state of the store. When this robot receives actions from elsewhere in the app, it uses them to update the state inside the warehouse store. This way, one and only one thing updates the state, and that is the reducer, or the robot, in this metaphor.
+In the video, the Net Ninja talks about how Redux is a JavaScript object that represents the global state of the application. The reducer is a function that interacts with the store in the Redux in order to change the state of the data in the store. The store is like a data warehouse. The reducer is like a robot that stands guard at the door of the warehouse. Only the robot has access to the warehouse and can change the state of the store. When this robot receives actions from elsewhere in the app, it uses them to update the state inside the warehouse store. This way, one and only one thing updates the state, and that is the reducer, or the robot, in this metaphor.
 
-In this lesson, the Net Ninja demonstrates how to create a Redux store by entering code in codepen.io. To do this, you first have to install the React Redux library in codepen:
+In this lesson, the Net Ninja demonstrates how to create a Redux store by entering code in codepen.io. To do this, you first have to click on the settings gadget and install the React Redux library in codepen:
 
 `https://cdnjs.cloudfare.com/ajax/libs/redux/4.0.0-rc.1/redux.js`
 
@@ -27,7 +29,7 @@ function myreducer(state = initState, action){
   //
 }
 ```
-The function has an initial state that it gets from a constant called initState.
+The function has an initial state that it gets from a constant called __initState__.
 ```
 const initState = {
   todos: [],
