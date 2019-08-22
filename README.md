@@ -19,7 +19,7 @@ This time, when the user clicks on the button, the event object gets logged in t
 
 https://www.freecodecamp.org/news/__this__-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/
 
-The Net Ninja shows that, within the arrow function, it is possible to change the state using the method `setSTate({})`. An object gets passed into the curly braces. In the example, he changes the name:
+The Net Ninja shows that, within the arrow function, it is possible to change the state using the method `setState({})`. An object gets passed into the curly braces. In the example, he changes the name:
 
 ```
         this.setState({
