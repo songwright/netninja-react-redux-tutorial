@@ -17,7 +17,7 @@ The JavaScript preprocessor has to be set for Babel.
 
 In the JS panel in codepen, the Net Ninja uses destructuring to declare a constant called __createStore__ which is equal to __Redux__. This will take __createStore__ from the Redux library and store it in the __createStore__ constant.
 
-`const = { createStore } = Redux;`
+`const { createStore } = Redux;`
 
 Next, he creates a store with a reducer. We’re passing the reducer into the store as a parameter because the two are tightly coupled in Redux. This way, the store knows which reducer is interacting with it.
 
