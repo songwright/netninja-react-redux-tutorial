@@ -20,4 +20,24 @@ function myreducer(state = initState, action){
   console.log(action, state);
 }
 ```
-He shows in the codepen.io page how the console first prints the state as an object and then prints the value of __todoAction__ as another object. The state is still empty. Typically, you use a dispatch from a component to update the state. That goes to the reducer, which does something with that action.
+He shows in the codepen.io page how the console first prints the state as an object
+```
+Object {
+  posts: [],
+  todos: []
+} Object {
+  todo: "buy milk",
+  type: "@@redux/INITb.k.z.n.6.k"
+}
+```
+and then prints the value of __todoAction__ as another object.
+```
+Object {
+  posts: [],
+  todos: []
+} Object {
+  todo: "buy milk",
+  type: "ADD_TODO"
+}
+```
+The state is still empty. Typically, you use a dispatch from a component to update the state. That goes to the reducer, which does something with that action.
