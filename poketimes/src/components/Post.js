@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 class Post extends Component{
+  handleClick = () => {
+    this.props.deletePost(this.props.post.id);
+  }
   render() {
     console.log(this.props)
     const post = this.props.post ? (
