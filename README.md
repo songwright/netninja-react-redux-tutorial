@@ -11,7 +11,7 @@ In the video, the Net Ninja talks about how Redux is a JavaScript object that re
 
 In this lesson, the Net Ninja demonstrates how to create a Redux store by entering code in codepen.io. To do this, you first have to click on the settings gadget and install the React Redux library in codepen:
 
-`https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.0-rc.1/redux.js`
+https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.0-rc.1/redux.js
 
 The JavaScript preprocessor has to be set for Babel.
 
